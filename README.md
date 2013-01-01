@@ -17,10 +17,10 @@ Setting up the Example with Eclipse to try it out:
 ###Defining Sliders
 Sliders are defined in an Layout Andorid XML file (activity_slider.xml). All the attributes of the sliders and its containing layout can be defined here. 
 
-###Loading Slider
+###Loading Sliders
 The SliderFragment loads the sliders defined in the slider Layout file. The sliders defined in the XML file are created as `SliderBar` classes and added to a List of SliderBars. 
 
-###Handeling the SliderBar events
+###Handeling the SliderBar Events
 The implementation of the `SliderListener` handels the events comming from the sliders. The `SliderFragement` creates the `SliderListener` and registers itself as the caller, so that the listener can pass on events via the `onSliderChanged` function. This function then implements what happens with the event (the example passes the changed sliders on to another `Fragement` that shows a `Dialog`). The `SliderFragement` ensures that its `Activity` contains this function via the `onAttach` method.
 
 SliderBar.java
