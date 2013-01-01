@@ -8,6 +8,7 @@ Using the Example code
 The code contains both the core widget (applab.sliderbar.widget) and the Activities, Fragments and Layouts needed to use the widget. The Activities and Fragments in applab.sliderbar are an example of how the widget can be integrated into an Android App.
 
 Setting up the Example with Eclipse to try it out:
+
 1. Create a new Android project called SliderBar with the package name applab.sliderbar
 2. Import the src, res, and assets folders from the downloaded SliderBar code into the newly created SliderBar Eclipse project. The AndroidManifest file in the root directory should also be included.
 3. Create a new Android Application Run Configuration for the project.
