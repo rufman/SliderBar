@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="SliderBar">
+        <attr name="slider_drawable" format="string" />
+        <attr name="slider_name" format="string" />
+        <attr name="tag_typeface" format="string" />
+    </declare-styleable>    
+</resources>

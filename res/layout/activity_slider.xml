@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/applab.sliderbar"
+    android:id="@+id/slider_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slider_background"
+    android:orientation="horizontal" >
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </View>
+
+    <applab.sliderbar.widget.SliderBar
+        android:id="@+id/slider_blue"
+        android:layout_width="@dimen/slider_width"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        custom:slider_drawable="@drawable/slider_blue_matte"
+        custom:slider_name="@string/slider_1_name"
+        custom:tag_typeface="Comfortaa_Bold.ttf" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" >
+    </View>
+
+    <applab.sliderbar.widget.SliderBar
+        android:id="@+id/slider_red"
+        android:layout_width="@dimen/slider_width"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        custom:slider_drawable="@drawable/slider_red_matte"
+        custom:slider_name="@string/slider_2_name"
+        custom:tag_typeface="Comfortaa_Bold.ttf" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" >
+    </View>
+
+    <applab.sliderbar.widget.SliderBar
+        android:id="@+id/slider_green"
+        android:layout_width="@dimen/slider_width"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        custom:slider_drawable="@drawable/slider_green_matte"
+        custom:slider_name="@string/slider_3_name"
+        custom:tag_typeface="Comfortaa_Bold.ttf" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" >
+    </View>
+
+    <applab.sliderbar.widget.SliderBar
+        android:id="@+id/slider_orange"
+        android:layout_width="@dimen/slider_width"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        custom:slider_drawable="@drawable/slider_orange_matte"
+        custom:slider_name="@string/slider_4_name"
+        custom:tag_typeface="Comfortaa_Bold.ttf" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="2" >
+    </View>
+
+    <applab.sliderbar.widget.SliderBar
+        android:id="@+id/slider_pink"
+        android:layout_width="@dimen/slider_width"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        custom:slider_drawable="@drawable/slider_pink_matte"
+        custom:slider_name="@string/slider_5_name"
+        custom:tag_typeface="Comfortaa_Bold.ttf" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+    </View>
+
+</LinearLayout>

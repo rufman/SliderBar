@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SliderBar</string>
+    <string name="results_pane">ResultsPane</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="slider_1_name">Popularity</string>
+    <string name="slider_2_name">Trending</string>
+    <string name="slider_3_name">Entertainment</string>
+    <string name="slider_4_name">Productivity</string>
+    <string name="slider_5_name">Lifestyle</string>
+
+</resources>

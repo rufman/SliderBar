@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/sliders_fragement"
+        android:name="applab.sliderbar.SliderFragment"
+        android:layout_width="match_parent"
+        android:layout_weight="3"
+        android:layout_height="0dp" />
+    
+    <FrameLayout
+        android:id="@+id/pane"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+</LinearLayout>
